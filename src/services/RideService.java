@@ -12,6 +12,7 @@ public class RideService {
 
     // User onboarding
     public void addUser(String name, String gender, int age) {
+        System.out.println("Bablu is good boy);
         users.put(name, new User(name, gender, age));
     }
 
